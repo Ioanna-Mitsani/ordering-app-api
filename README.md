@@ -1,2 +1,2 @@
 # ordering-app-api
-A Node.js API for exposing data to React Ordering App
+A Node.js + Express Server for exposing data to React food delivery app
