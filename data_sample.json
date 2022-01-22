@@ -1,0 +1,28 @@
+{
+    "store1" : {
+        "info" : {
+            "id" : "store1",
+            "title" : "Store #1",
+            "categories" : [ 
+                "coffee", 
+                "brunch", 
+                "snacks"
+            ],
+            "address" : "El. Venizelou 12, Nea Smyrni, 17456",
+            "area" : "Nea Smyrni",
+            "delivery_time" : "45",
+            "min_order" : "10",
+            "rating" : "4.5",
+            "review_no" : "123",
+            "image" : "https://picsum.photos"
+        },
+        "products" : [ 
+            {
+                "title" : "espresso shot",
+                "desc" : "Single shot espresso, 100% Arabica blend",
+                "category" : "coffee",
+                "price" : "1.50"
+            }
+        ]
+    }
+}

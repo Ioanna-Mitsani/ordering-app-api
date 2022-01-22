@@ -1,0 +1,32 @@
+{
+  "name": "ordering-app-api",
+  "version": "1.0.0",
+  "description": "A Node.js + Express.js server for React ordering app project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ioanna-Mitsani/ordering-app-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ioanna-Mitsani/ordering-app-api/issues"
+  },
+  "homepage": "https://github.com/Ioanna-Mitsani/ordering-app-api#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "helmet": "^5.0.1",
+    "mongoose": "^6.1.6"
+  },
+  "devDependencies": {
+    "dotenv": "^11.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
