@@ -1,13 +1,14 @@
 // Importing
-const router = require('express').Router();
+const router = require("express").Router();
 
 // APIs
-const stores = require('./stores');
-const products = require('./products');
-
+const stores = require("./stores");
+const store = require("./store");
+const products = require("./products");
 // Routing
-router.use('/', stores)
-router.use('/', products)
+router.use("/", stores);
+router.use("/stores", store);
+router.use("/stores", products);
 
 // Exports
 module.exports = router;

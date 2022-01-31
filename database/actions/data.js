@@ -1,7 +1,11 @@
-const StoreSchema = require('../models/store');
+const StoreSchema = require("../models/store");
 
 const getStores = async () => {
-    return await StoreSchema.find();
-}
+  return await StoreSchema.find();
+};
 
-module.exports = getStores
+const getStoreById = async (id) => {
+  return await StoreSchema.findOne({ id: id });
+};
+
+module.exports = getStores;
